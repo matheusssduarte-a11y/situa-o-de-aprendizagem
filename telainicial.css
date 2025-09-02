@@ -1,0 +1,60 @@
+/* O estilo do botão principal */
+.dropbtn {
+  background-color: #C2FFD6;
+  color: #d6fee2;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* O contêiner do dropdown que esconde o conteúdo */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Conteúdo do menu dropdown */
+.dropdown-content {
+  display: none; /* Esconde o conteúdo por padrão */
+  position: absolute;
+  background-color: #d6fee2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links dentro do conteúdo do dropdown */
+.dropdown-content a {
+  color: #04d89d;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; /* Faz cada link ocupar uma linha */
+}
+
+/* Efeito ao passar o mouse sobre o link */
+.dropdown-content a:hover {
+  background-color: #C2FFD6;
+}
+
+/* Mostra o conteúdo quando o mouse estiver sobre o botão do dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+form{
+ margin: 2;
+    padding: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    button {
+      display: block; /* Faz o botão ocupar 100% da largura e ir para a linha seguinte */
+    }
+        .centralizador {
+      display: flex; /* Ativa o Flexbox */
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente */
+     
+    }

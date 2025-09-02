@@ -1,0 +1,98 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+  }
+  
+  html {
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: #d6fee2;
+    color: #04d89d;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    justify-content: right;
+  }
+  
+  
+  header {
+    background: #C2FFD6;
+    color: #04d89d;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: #04d89d;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  footer {
+    background: #c2ffd6;
+    color: #04d89d;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 21rem;
+  }
+
+  form {
+     margin: 2;
+    padding: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button {
+    color: #04d89d;
+    background-color: #ebffec;
+border-color: #04d89d;
+border-radius: 100px;
+width: 300px;
+font-family: cursive;
+  }
+
+  input{
+    color: #04d89d;
+    background-color: #ebffec;
+    border-color: #04d89d;
+    border-radius: 100px;
+width: 500px;
+font-family: cursive;
+  }
+  li a{
+    font-size: small;
+    color: #04d89d;
+  }
+
+  button a{
+    text-decoration: none;
+    color: #04d89d;
+  }
